@@ -1,0 +1,13 @@
+1) Frequency Counter
+
+    A) This pattern uses objects or sets to collect values/frequency of values.
+
+    B) This can often avoid the need for nested loops or O(N^2) operations with arrays/strings.
+
+2) Example
+
+    A) Write a function called same, which accepts two arrays. 
+    The function should return true if every value in the array 
+    has it's corresponding value squared in the array. 
+    The frequency of the values must be the same.
+       
