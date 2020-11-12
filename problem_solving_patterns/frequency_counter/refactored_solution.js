@@ -47,4 +47,6 @@ How it works:
 
     2) We then compare the keys of the first object to the keys of the 2nd object.
     The keys of frequencyCounter 2 must be equal to keys of frequencyCounter 1 squared. 
+
+    3) Only 3 loops used in this function = better time complexity.
 */
