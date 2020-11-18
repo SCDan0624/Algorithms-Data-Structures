@@ -12,7 +12,7 @@ sumZero([-3,-2,-1,0,1,2,4]) // [-3,3]
 sumZero([-2,0,1,3]) // undefined
 sumZero([1,2,3]) // undefined
 
-*/ j++;
+*/
 
 function sumZero(arr) {
   for (let i = 0; i < arr.length; i++) {
@@ -24,6 +24,7 @@ function sumZero(arr) {
   }
 }
 
+sumZero([-3, -2, -1, 0, 1, 2, 3]); // [-3,3]
 // Time Complexity - 0(N^2) Space - 0(1)
 
 /*
@@ -35,4 +36,7 @@ if adding both numbers = 0;
 
 If false then the second loops goes on to -1 and continues the cycle
 all the way until the end of the array.
+
+After the second loops hits the end of the array the first array goes on to the 
+next number and starts the process over again.
 */
