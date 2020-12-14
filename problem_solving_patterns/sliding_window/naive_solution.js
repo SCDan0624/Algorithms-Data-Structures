@@ -1,3 +1,4 @@
+// Time Complexity - O(N^2)
 function maxSubarraySum(arr, num) {
   if (num > arr.length) {
     return null;
