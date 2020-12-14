@@ -1,6 +1,12 @@
 // Time Complexity - O(N)
-function maxSubarrauSum(arr, num) {
+function maxSubarraySum(arr, num) {
   let maxSum = 0;
   let tempSum = 0;
   if (arr.length < num) return null;
+
+  for (let i = 0; i < arr.length; i++) {
+    maxSum += arr[i];
+  }
 }
+
+// maxSubarraySum([2,6,9,2,1,8,5,6,3],3)
