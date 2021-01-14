@@ -18,3 +18,5 @@ function search(arr, value) {
   }
   return -1;
 }
+
+// Time Complexity O(N)
