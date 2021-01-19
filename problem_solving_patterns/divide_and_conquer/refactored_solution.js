@@ -10,4 +10,9 @@ search([1,2,3,4,5,6],6) // 5
 search([1,2,3,4,5,6],11) // -1
 */
 
-function search(array, val) {}
+function search(array, val) {
+  let min = 0;
+  let max = array.length - 1;
+
+  //   while loop here
+}
